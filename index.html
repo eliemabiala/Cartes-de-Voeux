@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma premiere Cartes de Vœux Dynamiques js</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="greeting-form">
+            <label for="message">Votre message:</label>
+            <input type="text" id="message" required><br>
+
+            <div>
+                <label>taille text:</label> <br>
+                <select class="InputSize" id="ChangeSize">
+                  <option value="10">Petit</option>
+                  <option value="40">Moyen</option>
+                  <option value="70">Grand</option>
+                </select>
+              </div>
+
+            <label for="textColor">Couleur du texte:</label>
+            <input type="color" id="textColor" value="#000000"><br>
+
+            <label for="bgColor">Couleur de fond:</label>
+            <input type="color" id="bgColor"><br>
+
+            <label for="imageUrl">URL de limage de fond :</label>
+            <input type="text" id="imageUrl" required><br>
+
+            <button type="submit">Appliquer les réglages</button>
+        </form>
+        <div id="greeting-card"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

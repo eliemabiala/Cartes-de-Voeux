@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.greeting-form{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.greeting-form{
+display: flex;
+justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"], input[type="number"], input[type="color"] {
+    margin-bottom: 10px;
+}
+
+#greeting-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
